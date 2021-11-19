@@ -1,2 +1,2 @@
 # Supercell
-A revamped lego website for school assignment
+A revamped Supercell website for school assignment
