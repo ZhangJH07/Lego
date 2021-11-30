@@ -52,7 +52,45 @@ nav ul li a{
     z-index: 3;
     cursor: pointer;
 }
-#manuBtn img{
+#menuBtn img{
     width: 20px;
     margin-top: 15px;
+}
+@media screen and (max-width: 770px){
+    .banner-text h1{
+        font-size: 44px;
+    }
+}
+.introduction-1 h1{
+    width: 100%;
+    padding: 70px 0;
+    text-align: center;
+    margin: auto;
+    font-size: 50px;
+    font-weight: bold;
+}
+.introduction-1 p{
+    width: 100%;
+    padding: 70px 0;
+    text-align: center;
+    margin: auto;
+    font-size: 20px;
+    font-weight: bold;
+}
+.game-list{
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+}
+.game{
+    flex-basis: 48%;
+    text-align: center;
+    border-radius: 7px;
+    margin-bottom: 20px;
+    color: #fff
+}
+.game img{
+    width: 100%;
+    border-radius: 7px;
 }
