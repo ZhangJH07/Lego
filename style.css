@@ -1,0 +1,33 @@
+*{
+    margin: o;
+    padding: 0;
+    font-family: 'Zen Antique Soft', serif;
+}
+#banner{
+    background: linear-gradient(rgba(0,0,0,0.5,#009688),url(images/history_champagne.jpg));
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+.banner-text{
+    text-align: center;
+    color: #fff;
+    padding-top: 180px;
+}
+.banner-text h1{
+    font-size: 130px;
+}
+.banner-text p{
+    font-size: 20px;
+    font-style: italic;
+}
+
+#side-nav{
+    width: 120px;
+    height: 100vh;
+    position: fixed;
+    right: 0;
+    top: 0;
+    background-color: #009688;
+    z-index: 2;
+}
