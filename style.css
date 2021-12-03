@@ -27,7 +27,7 @@
         font-size: 44px;
     }
 }
-.introduction-1 h1{
+.title-text{
     width: 100%;
     padding: 70px 0;
     text-align: center;
@@ -51,7 +51,7 @@
     margin: auto;
 }
 .game{
-    flex-basis: 50%;
+    flex-basis: 47.5%;
     text-align: center;
     border-radius: 10px;
     margin-bottom: 20px;
@@ -131,7 +131,7 @@ hr{
     padding: 10px;
     margin-bottom: 30px;
     border-radius: 5px;
-    box-shadow: 0 10px 20px 3px #00968814;
+    box-shadow: 0 10px 20px 3px #7f7f7f;
     cursor: pointer;
     transition: transform 0.5s;
 }
@@ -162,29 +162,18 @@ hr{
     position: relative;
 }
 .footer-img{
-    max-width: 370px;
-    opacity: 0.8;
+    max-width: 500px;
+    opacity: 0.75;
     position: absolute;
     left: 50%;
-    top: 35%;
+    top: 25%;
     transform: translate(-50%,-50%);
 }
+
 .social-links{
     text-align: center;
 }
-.social-links .fa{
-    height: 40px;
-    width: 40px;
-    font-size: 20px;
-    line-height: 40px;
-    border: 1px solid #009688;
-    margin: 40px 5px 0;
-    color: #009688;
-    cursor: pointer;
-    transition: 0.5s;
-}
-.social-links .fa:hover{
-    background: #009688;
-    color: #fff;
-    transform: translateY(-7px);
+.social-links a{
+    font-size: 50px;
+    color: #000;
 }
