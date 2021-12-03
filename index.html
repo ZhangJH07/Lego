@@ -1,8 +1,7 @@
 <html>
 <head>
-    <link herf="style.css" rel="stylesheet" type="text/css"> 
+    <link href="style.css" rel="stylesheet"> 
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <img src="supercell_logo.jpg" style="width: 500px; height: 500px;">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Zen+Antique+Soft&display=swap" 
     rel="stylesheet">
 </head>
@@ -13,38 +12,6 @@
     </div>
 </section>
 
-<div id="side-nav">
-    <nav>
-    <ul>
-        <li><a herf="#">HOME</a></li>
-        <li><a herf="#">GAMES</a></li>
-        <li><a herf="#">CONTACT US</a></li>
-    </ul>
-    </nav>
-</div>
-<div id="menuBtn">
-    <img src="images/menu.png">
-</div>
-
-<script>
-var menuBtn = document.getElementById("menuBtn") 
-var sideNav = document.getElementById("sideNav")
-var menu = document.getElementById("menu") 
-
-sideNav.style.right = "-120px";
-
-menuBtn.oneclick = function(){
-    if(sideNav.style.right == "-120px"){
-        sideNav.style.right = "0";
-        menu.src = "images/close.png";
-    }
-    else{
-        sideNav.style.right = "-120px";
-        menu.src = "images/close.png";
-    }
-}
-</script>
-
 <section class="introduction-1">
 <h1>The story of Supercell</h1>
 <p>Supercell is a Finnish mobile game development company based in Helsinki, Finland. Founded on 14 May 2010,
@@ -54,11 +21,12 @@ menuBtn.oneclick = function(){
     Boom Beach, Clash Royale and Brawl Stars, which are all free fast-paced and successful games, the first two generating revenue of €2 million a day in 2013.
 </p> 
 </section>
+
 <section class="introduction-2">
-    <div class="title">
+    <div class="title-text">
     <h1>Featured Games</h1>
     </div>
-    <div class="games-list">
+    <div class="game-list"></div>
         <div class="game">
             <img src="images/hayday.jpg">
             <div class="overlay"></div>
@@ -74,57 +42,64 @@ menuBtn.oneclick = function(){
         <div class="game">
             <img src="images/clash-of-clans.jpg">
             <div class="overlay"></div>
-            <div class="game-desc"></div>
-            <h3>Hay Day</h3>
+            <div class="game-desc">
+                <h3>Clash of Clans</h3>
                 <hr>
                 <p>Clash of Clans has been available internationally on the iTunes store and Google Play Store since 
                     2012, From rage-filled Barbarians with glorious mustaches to pyromaniac Wizards, 
                     raise your own army and lead your clan to victory! Build your village to fend off raiders, 
                     battle against millions of players worldwide, and forge a powerful clan with others to 
                     destroy enemy clans.</p>
+            </div>
         </div>
         <div class="game">
             <img src="images/boom-beach.jpg">
             <div class="overlay"></div>
-            <div class="game-desc"></div>
-            <h3>Boom Beach</h3>
+            <div class="game-desc">
+                <h3>Boom Beach</h3>
                 <hr>
                 <p>Storm the beach and win the day! Boom Beach is a combat strategy game for iOS and Android. 
                     Fight an epic war against the evil Blackguard. Take your expeditionary force to beautiful paradise islands invaded by 
                     the enemy. Fight for every beachhead, free enslaved islanders and explore the uncharted archipelago. 
                     The fight becomes a race to harness the ancient powers hidden on the islands. Are you ready for the BOOM?</p>
+            </div>
         </div>
         <div class="game">
             <img src="images/clash-royale.jpg">
             <div class="overlay"></div>
-            <h3>Clash Royale</h3>
+            <div class="game-desc">
+                <h3>Clash Royale</h3>
                 <hr>
-                <p> Clash Royale is the fast-paced brawler where you collect cards and duel players in real time. 
+                <p>Clash Royale is the fast-paced brawler where you collect cards and duel players in real time. 
                     Destroy your opponent's Crown Towers, but be sure to defend your own. See you in the arena!</p>
+            </div>
         </div>
         <div class="game">
             <img src="images/brawl-stars.jpg">
             <div class="overlay"></div>
-            <h3>Brawl Stars</h3>
-            <hr>
-            <p>Fast-paced 3v3 multiplayer and battle royale made for mobile! Play with friends or solo across 
-                a variety of game modes in under three minutes. Unlock and upgrade dozens of Brawlers with powerful 
-                Super abilities, Star Powers and Gadgets! Collect unique skins to stand out and show off. 
-                Battle in a variety of mysterious locations within the Brawliverse!</p>
+            <div class="game-desc">
+                <h3>Brawl Stars</h3>
+                <hr>
+                <p>Fast-paced 3v3 multiplayer and battle royale made for mobile! Play with friends or solo across 
+                    a variety of game modes in under three minutes. Unlock and upgrade dozens of Brawlers with powerful 
+                    Super abilities, Star Powers and Gadgets! Collect unique skins to stand out and show off. 
+                    Battle in a variety of mysterious locations within the Brawliverse!</p>
+            </div>
         </div>
     </div>
 </div>
 </section>
+
 <section id="testimonial">
     <div class="title-text">
-    <h1>What Developers Said About Supercell</h1>
+    <h1>What developers said about Supercell</h1>
     </div>
     <div class="testimonial-row">
         <div class="testimonial-col">
             <div class="name">
-                <img src="images/img-1.jpg">
+                <img src="images/person1.jpg">
                 <div class="name-info">
-                    <h3>PERSON 1</h3>
+                    <h3>Ilkka Paananen</h3>
                 </div>
             </div>
             <p>Since these early days, we’ve killed countless games at various stages of development. 
@@ -137,10 +112,11 @@ menuBtn.oneclick = function(){
         </div>
         <div class="testimonial-col">
             <div class="name">
-                <img src="images/img-2.jpg">
+                <img src="images/person2.jpg">
                 <div class="name-info">
-                    <h3>PERSON 2</h3>
+                    <h3>Mikko Kodisoja</h3>
                 </div>
+            </div>
             <p>We’d like to think that every failure is a unique opportunity to learn, and every lesson will ultimately 
                 make us better at what we do. That’s why we have a tradition of celebrating these lessons by drinking champagne
                 every time we screw up. For us, it’s clear that releasing hit games means having to take big risks. And by definition, 
@@ -149,10 +125,11 @@ menuBtn.oneclick = function(){
         </div>
         <div class="testimonial-col">
             <div class="name">
-                <img src="images/img-2.jpg">
+                <img src="images/person3.jpg">
                 <div class="name-info">
-                    <h3>PERSON 2</h3>
+                    <h3>Lassi Leppinen</h3>
                 </div>
+            </div>
             <p>Of course, taking risks isn’t only limited to creating games. We have some very ambitious ideas about how games can be marketed to the 
                 global populations of more than a billion gamers on mobile today. We want to find exciting new ways to tell everyone on the planet about our games. 
                 At some point we realized that for the first time in the history of gaming it’s now possible to create a truly global games company. 
@@ -161,6 +138,18 @@ menuBtn.oneclick = function(){
         </div>
     </div>
 </section>
-    
-    <h1>Social Media Links</h1>
+
+<section id="footer">
+    <img src="images/footer.png" class="footer-img">
+    <div class="title-text">
+    <h1>Keep in touch with Supercell</h1>
+    </div>
+    <div class="social-links">
+        <i class="fa fa-youtube-play"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-facebook"></i>
+    </div>
+</section>
+
 </html>
